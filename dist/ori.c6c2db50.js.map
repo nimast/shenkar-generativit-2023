@@ -1,1 +1,0 @@
-{"mappings":"","sources":["sketches/globalSketch.js"],"sourcesContent":["function resizeCanvas() {\n  canvas = document.getElementById(\"defaultCanvas0\");\n  canvas.width = window.innerWidth;\n  canvas.height = window.innerHeight;\n}\n"],"names":[],"version":3,"file":"ori.c6c2db50.js.map"}
