@@ -3,21 +3,11 @@
   "source": "src/index.html",
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
-    "start": "parcel --log-level info",
+    "start": "parcel",
     "build": "parcel build"
   },
   "devDependencies": {
-    "@parcel/resolver-glob": "^2.9.3",
     "parcel": "^2.9.2",
-    "parcel-namer-custom": "^0.2.0"
-  },
-  "dependencies": {
-    "parcel-plugin-static-files-copy": "^2.6.0"
-  },
-  "staticFiles": {
-    "staticPath": "sketches/eve"
-  },
-  "parcel-namer-custom": {
-    ".*jpg?$": "[name].[ext]"
+    "parcel-reporter-static-files-copy": "^1.5.0"
   }
 }
