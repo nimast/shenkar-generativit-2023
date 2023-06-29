@@ -1,0 +1,1 @@
+{"mappings":"","sources":["src/image-importer.js"],"sourcesContent":["// // // just import all images from sketches so that the bundler includes them\n// // import * as Images from \"../sketches/idan/*.jpg\";\n// const images = require('../sketches/idan/*.jpg');"],"names":[],"version":3,"file":"index.bbcaef6a.js.map"}
