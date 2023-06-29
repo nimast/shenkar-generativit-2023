@@ -1,2 +1,0 @@
-let e=1;windowWidth=400,widowHeight=400,window.onload=()=>{(function(l){let t;let s=document.getElementsByClassName("mySlides"),n=document.getElementsByClassName("dot");for(l>s.length&&(e=1),l<1&&(e=s.length),t=0;t<s.length;t++)s[t].style.display="none";for(t=0;t<n.length;t++)n[t].className=n[t].className.replace(" active","");s[e-1].style.display="grid"})(e),resizeCanvas()};
-//# sourceMappingURL=index.19f37fd7.js.map
